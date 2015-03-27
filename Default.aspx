@@ -7,7 +7,10 @@
             text-align: center;
         }
     </style>
+<<<<<<< HEAD
     <link rel="stylesheet" type="text/css" href="StyleSheet.css"/>
+=======
+>>>>>>> b4710bfed0508bdcf0f853b5f64e205a98c1a498
 </head>
 <body style="background-color: #D2B48C">
     <form id="form1" runat="server">
@@ -25,6 +28,7 @@
 
         <div style="align-content:center">
         <div class="table">
+<<<<<<< HEAD
         </div>
         </div>
         <asp:SqlDataSource ID="sql_recipe" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString3 %>" SelectCommand="SELECT * FROM [cbieri_recipes]"></asp:SqlDataSource>
@@ -47,6 +51,10 @@
 </footer>
  </div>
 
+=======
+
+ 
+>>>>>>> b4710bfed0508bdcf0f853b5f64e205a98c1a498
     
 </form>
 </body>

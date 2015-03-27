@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿﻿<!DOCTYPE html>
+=======
+﻿<!DOCTYPE html>
+>>>>>>> b4710bfed0508bdcf0f853b5f64e205a98c1a498
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title></title>
@@ -7,7 +11,10 @@
             text-align: center;
         }
     </style>
+<<<<<<< HEAD
     <link rel="stylesheet" type="text/css" href="StyleSheet.css"/>
+=======
+>>>>>>> b4710bfed0508bdcf0f853b5f64e205a98c1a498
 </head>
 <body style="background-color: #D2B48C">
 <form id="form1" runat="server">
@@ -27,6 +34,7 @@
             <div class="auto-style1">
             <p>
                 Your Email Address:<br />
+<<<<<<< HEAD
            &nbsp;&nbsp;&nbsp;<asp:TextBox ID="sEmail" runat="server"></asp:TextBox>
             </p>
             </div> sendersEmail
@@ -35,6 +43,16 @@
             <p>
                 Your Message:<br />
            &nbsp;&nbsp;&nbsp;<asp:TextBox ID="sMail" runat="server" Rows="5" Columns="50" TextMode="MultiLine"></asp:TextBox>
+=======
+            &nbsp;&nbsp;&nbsp;<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+            </p>
+            </div>
+
+            <div class="auto-style1">
+            <p>
+                Your Message:<br />
+            &nbsp;&nbsp;&nbsp;<asp:TextBox ID="TextBox2" runat="server" Rows="5" Columns="50" TextMode="MultiLine"></asp:TextBox>
+>>>>>>> b4710bfed0508bdcf0f853b5f64e205a98c1a498
             </p>
             </div>
 
@@ -46,10 +64,18 @@
             <br />
             <br />
     <div class="auto-style1">
+<<<<<<< HEAD
             <footer>
 &copy; 2015. MSCI:3300 Software Design and Development
 </footer>
  </div>
+=======
+        <p>
+        (c) 2013. 6K183 Software Design & Development
+        </p>
+        </div>  
+
+>>>>>>> b4710bfed0508bdcf0f853b5f64e205a98c1a498
         </form>
 
 
@@ -57,4 +83,8 @@
 
 
 </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> b4710bfed0508bdcf0f853b5f64e205a98c1a498

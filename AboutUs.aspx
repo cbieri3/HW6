@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿﻿<!DOCTYPE html>
+=======
+﻿<!DOCTYPE html>
+>>>>>>> b4710bfed0508bdcf0f853b5f64e205a98c1a498
 <script runat="server">
 
    
@@ -12,7 +16,10 @@
             text-align: center;
         }
     </style>
+<<<<<<< HEAD
     <link rel="stylesheet" type="text/css" href="StyleSheet.css"/>
+=======
+>>>>>>> b4710bfed0508bdcf0f853b5f64e205a98c1a498
 </head>
 <body style="background-color: #D2B48C">
     <form id="form1" runat="server">
@@ -35,6 +42,7 @@
     </div>
          <br />
          <br />
+<<<<<<< HEAD
      <div class="auto-style1">
             <footer>
 &copy; 2015. MSCI:3300 Software Design and Development
@@ -42,3 +50,12 @@
  </div>
 </body>
 </html>
+=======
+    <div class="auto-style1">
+     <p>
+        (c) 2013. 6K183 Software Design & Development
+        </p>
+        </div>
+</body>
+</html>
+>>>>>>> b4710bfed0508bdcf0f853b5f64e205a98c1a498
