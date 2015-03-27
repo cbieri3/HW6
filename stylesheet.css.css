@@ -1,0 +1,33 @@
+. table {
+	color:#FFFFFF;
+	width: auto;
+	}
+	
+	
+. columns {
+		color:#696969;
+}
+
+td {
+	background-color:#F08080;
+}
+
+. DetailsView {
+		color:#FFFFFF;
+		background-color:white;
+		border: 5px solid white;
+}
+
+. columns {
+		color:#696969;
+}
+
+. GridView {
+		color:#FFFFFF;
+		background-color:white;
+		border: 5px solid white;
+}
+
+tr {
+	color:#696969;
+}
