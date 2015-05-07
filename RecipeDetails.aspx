@@ -1,12 +1,11 @@
 ﻿<!DOCTYPE html>
-<<<<<<< HEAD
+
 <script runat="server">
 
   
 </script>
 
-=======
->>>>>>> b4710bfed0508bdcf0f853b5f64e205a98c1a498
+
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title></title>
@@ -15,10 +14,9 @@
             text-align: center;
         }
     </style>
-<<<<<<< HEAD
+
     <link rel="stylesheet" type="text/css" href="StyleSheet.css"/>
-=======
->>>>>>> b4710bfed0508bdcf0f853b5f64e205a98c1a498
+
 </head>
 <body style="background-color: #D2B48C">
     <form id="form1" runat="server">
@@ -33,7 +31,7 @@
        <a href="AboutUs.aspx" style="color: #696969">About Us</a>&nbsp; |&nbsp; 
        <a href="ContactUs.aspx" style="color: #696969">Contact Us</a>
         </div>
-<<<<<<< HEAD
+
      
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [RecipeID], [recipe_name], [submitted_by], [ingredient_1], [ingredient_3], [ingredient_2], [ingredient_4], [ingredient_5], [preparation], [notes] FROM [cbieri_recipes]" DeleteCommand="DELETE FROM [cbieri_recipes] WHERE [RECIPEID] = @RecipeID">
         </asp:SqlDataSource>
@@ -151,11 +149,11 @@
     
 </body>
 </html>
-=======
+
         </form>
 
 
 
 </body>
 </html>
->>>>>>> b4710bfed0508bdcf0f853b5f64e205a98c1a498
+
