@@ -30,12 +30,19 @@
 
         </div>
         </div>
-        <asp:SqlDataSource ID="sql_recipe" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString3 %>" SelectCommand="SELECT * FROM [cbieri_recipes]"></asp:SqlDataSource>
-        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="sql_recipe" HorizontalAlign="Center" style="margin-left:auto;margin-right:auto;">
+        <asp:SqlDataSource ID="sql_recipe" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT * FROM [cbieri_recipes]"></asp:SqlDataSource>
+        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="sql_recipe" HorizontalAlign="Center" style="margin-left:auto;margin-right:auto;" AllowPaging="True" AllowSorting="True">
             <Columns>
-                <asp:BoundField DataField="Recipe_Name" HeaderText="Recipe" SortExpression="Recipe_Name" />
-                <asp:BoundField DataField="Submitted_By" HeaderText="Submitted By" SortExpression="Submitted_By" />
-                <asp:HyperLinkField DataNavigateUrlFields="RecipeID" DataNavigateUrlFormatString="RecipeDetails.aspx" Text="Select" />
+                <asp:BoundField DataField="RecipeID" HeaderText="RecipeID" SortExpression="RecipeID" />
+                <asp:BoundField DataField="recipe_name" HeaderText="Recipe Name" SortExpression="recipe_name" />
+                <asp:BoundField DataField="submitted_by" HeaderText="Submitted By" SortExpression="submitted_by" />
+                <asp:BoundField DataField="ingredient_1" HeaderText="Ingredient 1" SortExpression="ingredient_1" />
+                <asp:BoundField DataField="ingredient_2" HeaderText="Ingredient 2" SortExpression="ingredient_2" />
+                <asp:BoundField DataField="ingredient_3" HeaderText="Ingredient 3" SortExpression="ingredient_3" />
+                <asp:BoundField DataField="ingredient_4" HeaderText="Ingredient 4" SortExpression="ingredient_4" />
+                <asp:BoundField DataField="ingredient_5" HeaderText="Ingredient 5" SortExpression="ingredient_5" />
+                <asp:BoundField DataField="preparation" HeaderText="Preparation" SortExpression="preparation" />
+                <asp:BoundField DataField="notes" HeaderText="Notes" SortExpression="notes" />
             </Columns>
             <HeaderStyle CssClass="columns" />
         </asp:GridView>

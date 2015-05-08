@@ -36,14 +36,19 @@
 
            &nbsp;&nbsp;&nbsp;<asp:TextBox ID="sEmail" runat="server"></asp:TextBox>
             </p>
-            </div> sendersEmail
+            </div>
+            <div class="auto-style1"> Sender's Email <br />
 
+ &nbsp;&nbsp;&nbsp;<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+               
+
+                </div>
              <div class="auto-style1">
             <p>
                 Your Message:<br />
            &nbsp;&nbsp;&nbsp;<asp:TextBox ID="sMail" runat="server" Rows="5" Columns="50" TextMode="MultiLine"></asp:TextBox>
 
-            &nbsp;&nbsp;&nbsp;<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+           
             </p>
             </div>
 
@@ -67,10 +72,7 @@
             <footer>
 &copy; 2015. MSCI:3300 Software Design and Development
 </footer>
- </div>        <p>
-        (c) 2013. 6K183 Software Design & Development
-        </p>
-  
+
 
 
         </form>
